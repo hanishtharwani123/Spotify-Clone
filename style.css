@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'hanish';
+    src: url(Circular/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: hanis;
+    src: url(Circular/CircularStd-Bold.otf);
+}
+
+@font-face {
+    font-family: hani;
+    src: url(Circular/CircularStd-Light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'hanish';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 80px;
+    background: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 48px;
+    margin: 17px;
+    position: relative;
+    left: -50px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 28px 17px;
+    position: relative;
+    left: 54px;
+    letter-spacing: 0;
+}
+
+.nav-links ul li a:hover {
+    color: #1ed760;
+}
+
+.main {
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0);
+    background-attachment: scroll, scroll;
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    background-size: 100% 1068px;
+    background-position: center -138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    color: #fff;
+    font-size: 64px;
+    max-width: 653px;
+    font-family: hanis;
+    font-weight: 700;
+    letter-spacing: -0.048em;
+    padding-bottom: 28px;
+}
+
+.pic {
+    height: 400px;
+}
+
+button {
+    border-radius: 500px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    width: 189px;
+    height: 49px;
+    background: white;
+    font-weight: 500;
+    font-family: hanis;
+    transition-duration: 0.2s
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.box2 {
+    position: relative;
+    left: 60px;
+    top: -2px;
+}
+
+.card1 {
+    height: 595px;
+    background-color: #fff;
+}
+
+.par {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -0.6px;
+    padding-top: 75px;
+    padding-bottom: 67px;
+    font-family: hanis;
+}
+
+
+.gri {
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 35px;
+}
+
+img {
+    height: 142px;
+    width: 142px;
+}
+
+.you {
+    font-size: 21px;
+    color: black;
+    text-align: center;
+}
+
+.hel1 {
+    position: relative;
+    left: 24px;
+}
+
+
+.lek {
+    padding-top: 35px;
+    padding-right: 69px;
+}
+
+.to {
+    font-size: 16px;
+    color: black;
+    padding-top: 15px;
+    font-family: hani;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box-1 {
+    width: 270px;
+    padding: 10px;
+}
+
+
+.hello1 {
+    height: 573px;
+    width: 286px;
+    position: relative;
+    top: 89px;
+    left: -27px;
+}
+
+.hello3 {
+    height: 445px;
+    width: 267px;
+
+}
+
+.hello2 {
+    position: absolute;
+    z-index: 1;
+    top: 235px;
+    left: 248.7px;
+}
+
+
+.card2 {
+    height: 495px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nam {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-family: hanis;
+}
+
+.card3 {
+    height: 583px;
+}
+
+.card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: url("https://www.scdn.co/i/free/lets-play.svg"), linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%);
+    background-color: rgb(108, 14, 224);
+    background-repeat: no-repeat;
+}
+
+
+.wer {
+    border-radius: 500px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    width: 189px;
+    height: 49px;
+    background: white;
+    font-weight: 500;
+    font-family: hanis;
+    transition-duration: 0.2s;
+    overflow: hidden;
+    position: relative;
+    left: 238px;
+    top: 36px;
+
+}
+
+.wer:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.foot {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 900;
+    font-family: hanis;
+}
+
+.card5 {
+    height: 532px;
+    background: black;
+    /* display: flex;
+    justify-content: space-around; */
+    overflow-y: hidden;
+}
+
+
+.qre {
+    width: 184px;
+    height: 60px;
+
+    position: relative;
+    left: 40px;
+    top: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 44px 193px 0px 10px;
+}
+
+
+
+.con1 p {
+    color: rgb(145, 148, 150);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.96px;
+    line-height: 16.8px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    text-transform: uppercase
+}
+
+.con1 li {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    list-style: none;
+}
+
+.con1 li:hover {
+    color: #1ed760;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: normal;
+    align-items: center;
+    color: rgb(145, 148, 150);
+    display: flex;
+    flex-shrink: 0;
+
+    padding: 60px 20px;
+    position: relative;
+    left: 212px;
+}
+
+
+.yello {
+    color: rgb(0, 0, 0);
+    font-family: hanis;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 35px;
+}
+
+
+.lis li {
+    color: rgba(0, 0, 0);
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 26px;
+
+    margin-top: 2px;
+    position: relative;
+    list-style: none;
+    outline: none;
+    padding-left: 194px;
+    padding-top: 54px;
+
+}
+
+hr {
+    color: rgba(188, 182, 182, 0.17);
+    align-items: center;
+}
